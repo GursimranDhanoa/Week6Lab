@@ -14,7 +14,7 @@
     <body>
         <h1>Shopping List</h1>
         <form action="ShoppingList" method="POST">
-            Username:<input type="text" name="username">
+            Username:<input type="text" name="username" value="${username}">
             <input type="submit" value="Register name">
         </form>
     </body>

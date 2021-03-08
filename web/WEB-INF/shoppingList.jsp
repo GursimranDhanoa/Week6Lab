@@ -9,9 +9,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Shopping List</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Shopping List</h1>
+        <p> Hello, ${username}     <a href="login?logout=true">Logout</a> </p>
+        
+        <h2>List</h2>
+        Add item: <input type="text" name="item">
+        <input type="submit" value="Add" name="add">
     </body>
 </html>
